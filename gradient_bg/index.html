@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background</title>
+    <style>
+        body {
+            background: radial-gradient(circle at 0%, #ee44ff, #cc22cc,#338888, #b4ff33);   
+            background-size: 300%;
+            animation: gradient-bg 10s ease-in-out infinite;
+        }
+
+        @keyframes gradient-bg {
+              0% {background-position:   0,  30%;}
+             25% {background-position:  50%, 50%;}
+             50% {background-position: 100%, 30%;}
+             75% {background-position:  90%, 80%;}
+            100% {background-position:   0,  30%;}
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
